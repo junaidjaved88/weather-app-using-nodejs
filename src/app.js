@@ -30,7 +30,7 @@ app.get("/weather",(req,res)=>{
 })
 app.get("*",(req,res)=>{
     res.render("error404",{
-        errormsg : "oops page not"
+        errormsg : "oops page not, try again"
     })
 })
 app.listen(port,()=>{
